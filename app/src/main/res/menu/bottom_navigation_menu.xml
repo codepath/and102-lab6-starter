@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_books"
+        android:icon="@drawable/baseline_book_24"
+        android:title="@string/text_books" />
+
+    <item
+        android:id="@+id/nav_articles"
+        android:icon="@drawable/baseline_library_books_24"
+        android:title="@string/text_article" />
+</menu>
