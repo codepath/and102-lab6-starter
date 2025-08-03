@@ -12,8 +12,8 @@ import com.bumptech.glide.Glide
 
 const val CAMPGROUND_EXTRA = "CAMPGROUND_EXTRA"
 
-class CampgroundsAdapter(private val context: Context, private val campgrounds: List<Campground>) :
-    RecyclerView.Adapter<CampgroundsAdapter.ViewHolder>() {
+class CampgroundAdapter(private val context: Context, private val campgrounds: List<Campground>) :
+    RecyclerView.Adapter<CampgroundAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.item_campground, parent, false)
